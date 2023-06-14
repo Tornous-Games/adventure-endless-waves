@@ -158,3 +158,7 @@ forever(function () {
         info.changeLifeBy(-1)
     }
 })
+forever(function () {
+    info.changeLifeBy(1)
+    pause(5000)
+})
